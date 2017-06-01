@@ -13,10 +13,11 @@ html {
 .hc-timing {
     position: fixed;
     top: 75%;
-    left: 15%;
+    left: 30%;
+    right: 30%;
 }
 p {
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Neucha', cursive;
     color: white;
 }
