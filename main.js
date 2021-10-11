@@ -6,7 +6,7 @@ function daysLeftUntilZelenyaComes() {
     var hours = 24 - now.getHours();
     var minutes = 60 -  now.getMinutes();
     var seconds = 60 - now.getSeconds();
-    document.getElementById("timer").innerHTML = Math.floor(days) + ' ' + 'days' + ' ' + hours  + ' ' + 'h' + ' ' + minutes + ' '  + 'min' + ' '  + seconds + ' '  + 'sec'; 
+    document.getElementById("timer").innerHTML = Math.floor(days) + ' ' + 'days' + ' ' + hours  + ' ' + 'h' + ' ' + minutes + ' '  + 'min'; 
     setTimeout(daysLeftUntilZelenyaComes, 1000);
 };  
 daysLeftUntilZelenyaComes();
